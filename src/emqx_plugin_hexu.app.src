@@ -1,0 +1,14 @@
+{application, emqx_plugin_hexu,
+ [{description, "EMQ X Plugin Hexu"},
+  {vsn, "git"},
+  {modules, []},
+  {registered, [emqx_plugin_hexu_sup]},
+  {applications, [kernel,stdlib]},
+  {mod, {emqx_plugin_hexu_app,[]}},
+  {env, []},
+  {licenses, ["Apache-2.0"]},
+  {maintainers, ["EMQ X Team <contact@emqx.io>"]},
+  {links, [{"Homepage", "https://emqx.io/"},
+           {"Github", "https://github.com/moke996/emqx_plugin_hexu"}
+          ]}
+ ]}.
